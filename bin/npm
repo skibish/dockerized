@@ -1,0 +1,13 @@
+#!/bin/bash
+
+VERSION=8.9
+
+docker run --rm \
+    --interactive \
+    --tty \
+    --net host \
+    --volume `pwd`:/app \
+    --workdir /app \
+    --user $(id -u):$(id -g) \
+    --entrypoint npm \
+    node:alpine-$VERSION "$@"

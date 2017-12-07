@@ -1,0 +1,9 @@
+#!/bin/bash
+
+docker run --rm \
+    --interactive \
+    --tty \
+    --net host \
+    --volume `pwd`:/app \
+    --workdir /app \
+    alpine/httpie "$@"

@@ -1,0 +1,11 @@
+#!/bin/bash
+
+VERSION=1.5.5
+
+docker run --rm \
+    --interactive \
+    --tty \
+    --net host \
+    --volume `pwd`:/app \
+    --user $(id -u):$(id -g) \
+    composer:$VERSION "$@"

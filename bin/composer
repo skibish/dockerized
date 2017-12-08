@@ -7,5 +7,6 @@ docker run --rm \
     --tty \
     --net host \
     --volume `pwd`:/app \
+    --workdir /app \
     --user $(id -u):$(id -g) \
     composer:$VERSION "$@"

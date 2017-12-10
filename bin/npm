@@ -10,4 +10,4 @@ docker run --rm \
     --workdir /app \
     --user $(id -u):$(id -g) \
     --entrypoint npm \
-    node:alpine-$VERSION "$@"
+    node:$VERSION-alpine "$@"

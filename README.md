@@ -1,5 +1,7 @@
 # Dockerized
 
+*[Read about it on Medium](https://medium.com/@skibish/how-docker-changed-my-workflow-b953b79b73ff)*
+
 ## Motivation
 
 In some cases you do not want to install something directly on your OS, because it can create caches, hidden directories, etc. and you will loose track of it

@@ -1,6 +1,6 @@
 # Dockerized
 
-*[Read about it the Blog](https://sergeykibish.com/blog/how-docker-changed-my-workflow/)*
+*[Read about it in the Blog](https://sergeykibish.com/blog/how-docker-changed-my-workflow/)*
 
 ## Motivation
 
